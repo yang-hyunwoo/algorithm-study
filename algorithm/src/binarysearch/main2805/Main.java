@@ -33,7 +33,7 @@ public class Main {
     }
     static void binary_search() {
         Arrays.sort(Nary , 1 , N+1);
-        long L = 0 , R = 2000000000, X = 0;
+        long L = 0 , R = Nary[N], X = 0;
         while(L <= R) {
             long mid = (L+R)/2;
             if(determination((int)mid)) {
