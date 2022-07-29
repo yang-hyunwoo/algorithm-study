@@ -5,20 +5,18 @@ import java.util.Stack;
 
 public class Main {
 
-    static int N,M;
+    static int N;
 
     static StringBuilder sb = new StringBuilder();
-    static Scanner scan = new Scanner(System.in);
 
 
-    public static void input(String input) {
+    public static void input() {
         Scanner scan = new Scanner(System.in);
         N = scan.nextInt();
         scan.nextLine();
         for(int i = 0 ; i < N ; i++){
             chk(scan.nextLine());
         }
-
     }
     static void chk(String s){
         int i = 0;
@@ -43,14 +41,9 @@ public class Main {
         }
     }
 
-    public static void main(String[] args) {
-        N = scan.nextInt();
-        int i = 0;
-        while( i <N) {
-            i++;
-            input(scan.nextLine());
 
-        }
+    public static void main(String[] args) {
+        input();
     }
 
 }
