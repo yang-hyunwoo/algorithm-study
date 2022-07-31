@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class Main {
 
     static int N,M;
