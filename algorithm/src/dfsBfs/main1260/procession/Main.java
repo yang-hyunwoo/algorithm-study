@@ -38,7 +38,6 @@ public class Main {
 
     public static void dfs(int X){
         visit[X] = true;
-        System.out.println("asdfsadfasdfasdf");
         sb.append(X).append(" ");
         for(int y = 1 ; y <= N ; y++){
             if(Nary[X][y]==0){
@@ -47,6 +46,7 @@ public class Main {
             if(visit[y]){
                 continue;
             }
+
             dfs(y);
         }
     }
