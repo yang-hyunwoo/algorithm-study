@@ -1,4 +1,4 @@
-package dynamicProgramming.Main9095;
+package dynamicProgramming.main9095;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package dynamicProgramming.Main1003;
+package dynamicProgramming.main1003;
 
 import java.util.Scanner;
 
