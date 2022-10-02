@@ -7,7 +7,8 @@ public class Main {
     static int N,M;
     static int[][] Nary;
     static boolean[][] visit;
-    static int[][] dir = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}, {1, 1}, {1, -1}, {-1, 1}, {-1, -1}};    static StringBuilder sb = new StringBuilder();
+    static int[][] dir = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}, {1, 1}, {1, -1}, {-1, 1}, {-1, -1}};
+    static StringBuilder sb = new StringBuilder();
     static int count= 0 ;
     static  Scanner scan = new Scanner(System.in);
     public static void input(int N , int M) {
