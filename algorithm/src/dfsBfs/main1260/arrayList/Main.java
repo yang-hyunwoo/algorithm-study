@@ -17,9 +17,11 @@ public class Main {
         S = scan.nextInt();
         Nary = new ArrayList[N+1];
         visit = new boolean[N+1];
+
         for(int i = 1 ; i <= N ; i++){
             Nary[i] = new ArrayList<Integer>();
         }
+
         for(int i = 1 ; i <= M ; i++){
             int x = scan.nextInt();
             int y = scan.nextInt();

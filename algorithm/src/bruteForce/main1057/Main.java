@@ -1,5 +1,6 @@
 package bruteForce.main1057;
 
+
 import java.util.Scanner;
 
 public class Main {
@@ -7,7 +8,6 @@ public class Main {
     static int N,M,S;
     static int count;
     static StringBuilder sb = new StringBuilder();
-
 
     public static void input() {
         Scanner scan = new Scanner(System.in);

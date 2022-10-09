@@ -59,7 +59,7 @@ public class Main {
                 visited[nx][ny] = true;
             }
         }
-        
+
         String ans ="";
         if(visited[N-1][N-1]){
             ans = "HaruHaru";
