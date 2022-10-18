@@ -41,6 +41,7 @@ public class Main {
         N = scan.nextInt();
         Nary = new Elem[N];
         scan.nextLine();
+
         for(int i = 0 ; i < N ; i++){
             Nary[i] = new Elem();
             Nary[i].a = scan.nextLine();
