@@ -21,6 +21,7 @@ public class Main {
         }
         dfs(500,0);
         System.out.println(count);
+
     }
 
     public static void dfs(int sum , int cnt) {
