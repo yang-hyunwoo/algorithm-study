@@ -24,12 +24,10 @@ public class Main {
                 }
             }
         }
-
         binary_search();
-
     }
 
-    private static void binary_search() {
+    private static void binary_search() {       //매개 변수 탐색
         long L = 10000001, R = 0, ans = Integer.MAX_VALUE;
 
         while(L>=R) {
@@ -47,10 +45,10 @@ public class Main {
         System.out.println(ans);
     }
 
-    private static boolean chk(long mid) {
+    private static boolean chk(long mid) {      //이부분 if문을 제거하고 좀더 간결한 코드로 수정이 가능할듯함
         long count = 0;
-        long okComputer = totalComputer / 2 ==0 ? 1 :totalComputer / 2;
-        long okComputerNamuge = totalComputer % 2;
+        long okComputer = totalComputer / 2 ==0 ? 1 :totalComputer / 2;     //절반 나누고 0인 경우와 0이 아닌 경우
+        long okComputerNamuge = totalComputer % 2;      //나눈후 절반 이 0 일때 아닐때 구분해야하기때문에
         for(int i = 0 ; i < N ; i++) {
             for(int j = 0 ; j < N ; j++) {
                 if(computer[i][j]!=0) {
